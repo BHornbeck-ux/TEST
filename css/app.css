@@ -1,0 +1,97 @@
+
+.nav-icon {
+  width: 25px;
+  height: 25px;
+  border-radius: 23.3%;
+}
+
+.page-content {
+  background-color: #111720;
+}
+
+.block-title {
+  color: #1E93FF;
+}
+
+.block-strong {
+  background-color: #111720;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.list ul {
+  background-color: #111720;
+}
+
+.list li {
+  background-color: #3D4E68;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  border-radius: 15px;
+  border:2px solid #1E93FF;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  border-radius:23.3%;
+}
+
+.get-btn {
+  width: 55px;
+  padding: 5px;
+  border-radius: 20px;
+  background-color: #3D4E68;
+  float: right;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+  border:2px solid #1E93FF;
+  color:#1E93FF;
+}
+.back {
+
+}
+
+.ios {
+  color: #1E93FF;
+}
+
+.link back{
+  background-color: #F2F7FF;
+}
+.goback {
+  width: 10px;
+  padding: 12px;
+  border-radius: 20px;
+  background-color: #3D4E68;
+  float: right;
+  color:#1E93FF;
+}
+.abtn {
+  width: 55px;
+  padding: 5px;
+  border-radius: 20px;
+  background-color: #3D4E68;
+  float: right;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+  border:2px solid #1E93FF;
+  color:#1E93FF;
+}
+.color-txt {
+  style="background-color: #3D4E68;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  color:#F2F7FF;"
+}
+.count {
+  width: 0px;
+  height: 0px;
+  border-radius:23.3%;
+}
+
