@@ -94,4 +94,15 @@
   height: 0px;
   border-radius:23.3%;
 }
+.metric {
+  width: 120px;
+  height: 120px;
+  border-radius:23.3%;
+}
+.top{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+}
 
