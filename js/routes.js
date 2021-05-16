@@ -5,40 +5,32 @@ var routes = [
     url: './index.html',
   },
   {
-    path: '/games/',
-    url: './pages/games.html',
-  },
-  {
-    path: '/apps/',
-    url: './pages/apps.html',
-  },
-  {
-    path: '/jb/',
-    url: './pages/jb.html',
-  },
-  {
-    path: '/other/',
-    url: './pages/other.html',
-  },
-  {
-    path: '/info/',
-    url: './pages/info.html',
-  },
-  {
-    path: '/dev/',
-    url: './pages/dev.html',
-  },
-  {
     path: '/home/',
     url: './index.html',
   },
   {
-    path: '/update/',
-    url: './pages/update.html',
+    path: '/games/',
+    url: './pages/other/games.html',
   },
   {
-    path: '/contact/',
-    url: './pages/contact.html',
+    path: '/apps/',
+    url: './pages/other/apps.html',
+  },
+  {
+    path: '/jb/',
+    url: './pages/other/jb.html',
+  },
+  {
+    path: '/other/',
+    url: './pages/other/other.html',
+  },
+  {
+    path: '/dev/',
+    url: './pages/tabs/dev.html',
+  },
+  {
+    path: '/update/',
+    url: './pages/tabs/update.html',
   },
   {
     path: '/repo/',
@@ -46,11 +38,19 @@ var routes = [
   },
   {
     path: '/search/',
-    url: './pages/search.html',
+    url: './pages/tabs/search.html',
   },
   {
     path: '/applist/',
-    url: './pages/applist.html',
+    url: './pages/tabs/applist.html',
+  },
+  {
+    path: '/Thomas/',
+    url: './pages/contacts/Thomas.html',
+  },
+  {
+    path: '/Benjamin/',
+    url: './pages/contacts/Benjamin.html',
   },
 
   {
@@ -73,17 +73,17 @@ var routes = [
       setTimeout(function () {
         // We got user data from request
         var user = {
-          firstName: 'Vladimir',
-          lastName: 'Kharlampidi',
-          about: 'Hello, i am creator of Framework7! Hope you like it!',
+          firstName: 'Thomas',
+          lastName: 'Hornbeck',
+          about: 'Developer Of Metric',
           links: [
             {
-              title: 'Framework7 Website',
-              url: 'http://framework7.io',
+              title: 'Metric Installer',
+              url: 'https://metricinstaller.com',
             },
             {
-              title: 'Framework7 Forum',
-              url: 'http://forum.framework7.io',
+              title: 'Metric old home',
+              url: 'https://installerpro.app',
             },
           ]
         };
@@ -107,6 +107,6 @@ var routes = [
   // Default route (404 page). MUST BE THE LAST
   {
     path: '(.*)',
-    url: './pages/notfound.html',
+    url: './pages/notfound/notfound.html',
   },
 ];
