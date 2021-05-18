@@ -3,54 +3,93 @@ var routes = [
   {
     path: '/',
     url: './index.html',
+    options: {
+        animate: false,
+      },
   },
   {
-    path: '/home/',
-    url: './index.html',
+    path: '/addlist/',
+    url: './pages/other/addlist.html',
+    options: {
+        animate: false,
+      },
   },
   {
     path: '/games/',
     url: './pages/other/games.html',
+    options: {
+        animate: false,
+      },
   },
   {
     path: '/apps/',
     url: './pages/other/apps.html',
+    options: {
+        animate: false,
+      },
   },
   {
     path: '/jb/',
     url: './pages/other/jb.html',
-  },
-  {
-    path: '/other/',
-    url: './pages/other/other.html',
-  },
-  {
-    path: '/dev/',
-    url: './pages/tabs/dev.html',
-  },
-  {
-    path: '/update/',
-    url: './pages/tabs/update.html',
-  },
-  {
-    path: '/repo/',
-    url: './pages/repo.html',
-  },
-  {
-    path: '/search/',
-    url: './pages/tabs/search.html',
-  },
-  {
-    path: '/applist/',
-    url: './pages/tabs/applist.html',
+    options: {
+        animate: false,
+      },
   },
   {
     path: '/Thomas/',
     url: './pages/contacts/Thomas.html',
+    options: {
+        animate: false,
+      },
   },
   {
     path: '/Benjamin/',
     url: './pages/contacts/Benjamin.html',
+    options: {
+        animate: false,
+      },
+  },
+  {
+    path: '/home/',
+    url: './index.html',
+    options: {
+        animate: false,
+      },
+  },
+  {
+    path: '/other/',
+    url: './pages/other/other.html',
+    options: {
+        animate: false,
+      },
+  },
+  {
+    path: '/dev/',
+    url: './pages/tabs/dev.html',
+    options: {
+        animate: false,
+      },
+  },
+  {
+    path: '/update/',
+    url: './pages/tabs/update.html',
+    options: {
+        animate: false,
+      },
+  },
+  {
+    path: '/search/',
+    url: './pages/tabs/search.html',
+    options: {
+        animate: false,
+      },
+  },
+  {
+    path: '/applist/',
+    url: './pages/tabs/applist.html',
+    options: {
+        animate: false,
+      },
   },
 
   {
