@@ -71,8 +71,8 @@ var routes = [
       },
   },
   {
-    path: '/update/',
-    url: './pages/tabs/update.html',
+    path: '/version/',
+    url: './pages/tabs/version.html',
     options: {
         animate: false,
       },
