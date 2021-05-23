@@ -76,11 +76,11 @@ body,html{
   color:#1E93FF;
 }
 .color-txt {
-  style="background-color: #3D4E68;
+  background-color: #3D4E68;
   font-size: 16px;
   font-weight: 700;
   text-align: center;
-  color:#F2F7FF;"
+  color:#F2F7FF;
 }
 .count {
   width: 0px;
@@ -97,5 +97,23 @@ body,html{
   top:0;
   left:0;
   width:100%;
+}
+.next{
+  padding: 5px;
+  float: right;
+  font-weight: 700;
+  text-align: center;
+  color:#1E93FF;
+  width: 15px;
+  height: 18px;
+}
+.get{
+  padding: 5px;
+  float: right;
+  font-weight: 700;
+  text-align: center;
+  color:#1E93FF;
+  width: 15px;
+  height: 18px;
 }
 
