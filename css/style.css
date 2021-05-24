@@ -1,0 +1,119 @@
+body,html{
+  margin:0px;
+  padding:0px;
+  background-color:#111720;
+  height:100%;
+  width:100%;
+}
+
+#particles-js{
+  width:100%;
+  height:100%;
+  background-color: #111720;
+}
+.nav-icon {
+  width: 25px;
+  height: 25px;
+  border-radius: 23.3%;
+}
+
+.page-content {
+  background-color: #111720;
+}
+
+.block-title {
+  color: #1E93FF;
+}
+
+.block-strong {
+  background-color: #111720;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.list ul {
+  background-color: #111720;
+}
+
+.list li {
+  background-color: #111720;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  border-radius: 15px;
+  border:2px solid #1E93FF;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  border-radius:23.3%;
+}
+
+.get-btn {
+  width: 55px;
+  padding: 5px;
+  border-radius: 20px;
+  background-color: #111720;
+  float: right;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+  border:2px solid #1E93FF;
+  color:#1E93FF;
+}
+.link back{
+  background-color: #F2F7FF;
+}
+.abtn {
+  background-color: #111720;
+  float: right;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+  border:2px solid #111720;
+  color:#1E93FF;
+}
+.txt {
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  color:#F2F7FF;
+  letter-spacing: 1.5px;
+}
+.count {
+  width: 0px;
+  height: 0px;
+  border-radius:23.3%;
+}
+.metric {
+  width: 120px;
+  height: 120px;
+  border-radius:23.3%;
+}
+.top{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+}
+.next{
+  padding: 5px;
+  float: right;
+  font-weight: 700;
+  text-align: center;
+  color:#1E93FF;
+  width: 15px;
+  height: 18px;
+}
+.get{
+  padding: 5px;
+  float: right;
+  font-weight: 700;
+  text-align: center;
+  color:#1E93FF;
+  width: 15px;
+  height: 18px;
+}
+
