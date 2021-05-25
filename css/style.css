@@ -116,4 +116,13 @@ body,html{
   width: 15px;
   height: 18px;
 }
+.back{
+  padding: 5px;
+  float: right;
+  font-weight: 700;
+  text-align: center;
+  color:#1E93FF;
+  width: 15px;
+  height: 18px;
+}
 
