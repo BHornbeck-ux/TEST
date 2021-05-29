@@ -71,13 +71,6 @@ var routes = [
       },
   },
   {
-    path: '/version/',
-    url: './pages/tabs/version.html',
-    options: {
-        animate: false,
-      },
-  },
-  {
     path: '/search/',
     url: './pages/tabs/search.html',
     options: {
@@ -87,6 +80,13 @@ var routes = [
   {
     path: '/applist/',
     url: './pages/tabs/applist.html',
+    options: {
+        animate: false,
+      },
+  },
+  {
+    path: '/version/',
+    url: './pages/drop-down/index.html',
     options: {
         animate: false,
       },
