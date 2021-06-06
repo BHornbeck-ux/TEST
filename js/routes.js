@@ -9,21 +9,28 @@ var routes = [
   },
   {
     path: '/games/',
-    url: './pages/other/games.html',
+    url: './pages/section/games.html',
     options: {
         animate: false,
       },
   },
   {
     path: '/apps/',
-    url: './pages/other/apps.html',
+    url: './pages/section/apps.html',
     options: {
         animate: false,
       },
   },
   {
     path: '/jb/',
-    url: './pages/other/jb.html',
+    url: './pages/section/jb.html',
+    options: {
+        animate: false,
+      },
+  },
+  {
+    path: '/other/',
+    url: './pages/other/other.html',
     options: {
         animate: false,
       },
@@ -37,7 +44,7 @@ var routes = [
   },
   {
     path: '/Benjamin/',
-    url: './pages/contacts/Benjamin.html',
+    url: './pages/section/Benjamin.html',
     options: {
         animate: false,
       },
@@ -45,13 +52,6 @@ var routes = [
   {
     path: '/home/',
     url: './index.html',
-    options: {
-        animate: false,
-      },
-  },
-  {
-    path: '/other/',
-    url: './pages/other/other.html',
     options: {
         animate: false,
       },
