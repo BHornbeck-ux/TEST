@@ -20,11 +20,19 @@ self.__WB_MANIFEST = [
   },
   {
     revision: '1',
+    url: 'css/dropdown.css'
+  },
+  {
+    revision: '1',
+    url: 'css/status.css'
+  },
+  {
+    revision: '1',
     url: 'css/icons.css'
   },
   {
     revision: '1',
-    url: 'js/routes.js'
+    url: 'js/config.js'
   },
   {
     revision: '1',
