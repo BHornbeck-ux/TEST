@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!--
+  Customize this policy to fit your own app's needs. For more guidance, see:
+      https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+  Some notes:
+    * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+    * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+      * Enable inline JS: add 'unsafe-inline' to default-src
+  -->
+  <meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap: content:">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+
+  <meta name="theme-color" content="#00b6ff">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="msapplication-tap-highlight" content="no">
+  <title>Metric</title>
+  <script async="async" data-cfasync="false" src="//upgulpinon.com/1?z=2893342"></script>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="apple-touch-icon" href="img/logo/icon.png">
+  <link rel="icon" href="img/logo/icon.png">
+  <link rel="manifest" href="/manifest.json">
+  
+  <link rel="stylesheet" href="framework7/framework7-bundle.min.css">
+  <link rel="stylesheet" href="css/icons.css">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <div id="app"class="theme-dark">
+    
+    
+    <!-- Your main view, should have "view-main" class -->
+    <div class="view view-main view-init safe-areas">
+      <div class="page" data-name="home">
+        <!-- Top Navbar -->
+        <div class="navbar navbar-large no-hairline">
+          <div style="background-color:#18191a;" class="navbar-bg"></div>
+          <div class="navbar-inner">
+            <div class="title sliding"><img class="nav-icon" src="img/logo/icon.png"></div>
+            <div class="title-large">
+              <div class="title-large-text">Metric</div>
+            </div>
+          </div>
+        </div>
+        <!-- Toolbar-->
+        <div class="toolbar toolbar-bottom">
+          <div class="toolbar-inner">
+            <a href="#" class="link external">Follow</a>
+            <a href="#" class="link external">Subscribe</a>
+          </div>
+        </div>
+        <!-- Scrollable page content-->
+        <div class="page-content">
+          <div class="block block-strong no-hairlines">
+            <p>Welcome to the #1 appstore of 2021.</p>
+          </div>
+          <div class="block-title">Sections</div>
+          <div class="list media-list no-hairlines-between no-hairlines no-chevron apps-list no no-hairline">
+            <ul>
+              <li style="margin:10px;" class="banner-li">
+                <div class="item-link item-content">
+                  <div class="item-media"><img class="icon" src="img/icons/spotify.png"
+                      width="44" /></div>
+                    <div class="item-inner">
+                      <a href="/tweaked/" class="get-btn">GET</a>
+                      <div class="item-title-row">
+                        <div class="item-title">Tweaked Apps</div>
+                      </div>
+                      <div style="font-size: 12px;" class="item-subtitle">Modded iOS Apps</div>
+                    </div>
+                </div>
+                </li>
+                <li style="margin:10px;" class="banner-li">
+                  <div class="item-link item-content">
+                    <div class="item-media"><img class="icon" src="img/icons/ipogo.png"
+                        width="44" /></div>
+                      <div class="item-inner">
+                        <a href="/hacked/" class="get-btn">GET</a>
+                        <div class="item-title-row">
+                          <div class="item-title">Hacked Games</div>
+                        </div>
+                        <div style="font-size: 12px;" class="item-subtitle">Modded iOS Games</div>
+                      </div>
+                  </div>
+                  </li>
+                  <li style="margin:10px;" class="banner-li">
+                    <div class="item-link item-content">
+                      <div class="item-media"><img class="icon" src="img/icons/unc0ver.png"
+                          width="44" /></div>
+                        <div class="item-inner">
+                          <a href="/jailbreak/" class="get-btn">GET</a>
+                          <div class="item-title-row">
+                            <div class="item-title">Jailbreak Apps</div>
+                          </div>
+                          <div style="font-size: 12px;" class="item-subtitle">Get Root Access</div>
+                        </div>
+                    </div>
+                    </li>
+                    <li style="margin:10px;" class="banner-li">
+                      <div class="item-link item-content">
+                        <div class="item-media"><img class="icon" src="img/icons/delta.png"
+                            width="44" /></div>
+                          <div class="item-inner">
+                            <a href="/other/" class="get-btn">GET</a>
+                            <div class="item-title-row">
+                              <div class="item-title">Other Apps</div>
+                            </div>
+                            <div style="font-size: 12px;" class="item-subtitle">Extras For You</div>
+                          </div>
+                      </div>
+                      </li>
+            </ul>
+          </div>
+
+          <center>
+            <p class="ver"><script> var ios = ((navigator.userAgent).match(/OS (\d)?\d_\d(_\d)?/i)[0].replace(/_/g, ".").replace("OS", "iOS"))
+              document.write("Version "+ios+"")
+              </script></p>
+          </center>
+          
+
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Popup -->
+    <div class="popup" id="my-popup">
+      <div class="view">
+        <div class="page">
+          <div class="navbar">
+            <div class="navbar-bg"></div>
+            <div class="navbar-inner">
+              <div class="title">Popup</div>
+              <div class="right">
+                <a href="#" class="link popup-close">Close</a>
+              </div>
+            </div>
+          </div>
+          <div class="page-content">
+            <div class="block">
+              <p>Popup content goes here.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Login Screen -->
+    <div class="login-screen" id="my-login-screen">
+      <div class="view">
+        <div class="page">
+          <div class="page-content login-screen-content">
+            <div class="login-screen-title">Login</div>
+            <div class="list">
+              <ul>
+                <li class="item-content item-input">
+                  <div class="item-inner">
+                    <div class="item-title item-label">Username</div>
+                    <div class="item-input-wrap">
+                      
+                      <input type="text" name="username" placeholder="Your username"/>
+                    </div>
+                  </div>
+                </li>
+                <li class="item-content item-input">
+                  <div class="item-inner">
+                    <div class="item-title item-label">Password</div>
+                    <div class="item-input-wrap">
+                      
+                      <input type="password" name="password" placeholder="Your password"/>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="list">
+              <ul>
+                <li>
+                  
+                  <a href="#" class="item-link list-button login-button">Sign In</a>
+                </li>
+              </ul>
+              <div class="block-footer">Some text about login information.<br/>Click "Sign In" to close Login Screen</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Framework7 library -->
+  <script src="framework7/framework7-bundle.min.js"></script>
+  
+  
+  <!-- App routes -->
+  <script src="js/routes.js"></script>
+  <!-- App store -->
+  <script src="js/store.js"></script>
+  <!-- App scripts -->
+  <script src="js/app.js"></script>
+</body>
+</html>
